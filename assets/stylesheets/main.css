@@ -1,0 +1,51 @@
+#button, .btn-light, .btn {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  padding: 0.5rem 1rem;
+  background-color: #c92502;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+#button:hover, .btn-light:hover, .btn:hover {
+  background-color: #891b02;
+}
+
+#btn-light, .btn-light {
+  background-color: transparent;
+  border: 1px solid #c92502;
+}
+#btn-light:hover, .btn-light:hover {
+  border-color: transparent;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.layout-enter-active,
+.layout-leave-active {
+  transition: opacity 0.5s;
+}
+
+.layout-enter,
+.layout-leave-active {
+  opacity: 0;
+}
+
+.app {
+  background-color: #211f1f;
+  min-height: 100vh;
+}
+
+.theme-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,27 @@
+$bg-clr: #211f1f;
+$red-clr: #c92502;
+$btn-hover: #891b02;
+
+#button {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  padding: 0.5rem 1rem;
+  background-color: $red-clr;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    background-color: $btn-hover;
+  }
+}
+
+#btn-light {
+  background-color: transparent;
+  border: 1px solid $red-clr;
+  &:hover {
+    border-color: transparent;
+  }
+}
